@@ -1,0 +1,84 @@
+h1 {
+    text-align: center;
+    font-family: Roboto;
+}
+
+body {
+    background-color: #b7bcc0;
+}
+
+@media(max-width: 600px){
+    .card {
+        position: absolute;
+        font-family: Roboto;
+        left: 50%;
+        transform: translate(-50%);
+        padding: 10px;
+        width: 70%;
+        background-color: #b7bcc0;
+        box-shadow: -2px -2px 6px rgb(255,255,255),
+                    2px 2px 6px rgb(160, 160, 160);
+    }
+}
+
+.card {
+    position: absolute;
+    font-family: Roboto;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 10px;
+    background-color: #b7bcc0;
+    box-shadow: -2px -2px 6px rgb(255,255,255),
+                2px 2px 6px rgb(104, 103, 103);
+}
+
+.evenlySpaced {
+    background-color: #b7bcc0;
+    display: flex;
+    
+    
+}
+.labelOne {
+    text-align: right;
+    width: 25%;
+    height: 18px;
+    padding: 5px 1px;
+    background-color: #b7bcc0;
+    margin-top: 3px;
+}
+
+.labelTwo {
+    padding: 5px 1px;
+    color: red;
+    background-color: #b7bcc0; 
+    margin-top: 3px;
+}
+
+input {
+    padding: 8px;
+    width: 40%;
+    height: 15px;
+    margin: 3px;
+    background-color: #b7bcc0;
+    border-radius: 25px;
+    border: none;
+    box-shadow: inset 2px 2px 6px rgb(104, 103, 103),
+                inset -2px -2px 6px rgb(255,255,255);
+}
+
+.labelThree {
+    padding: 5px 1px;
+    width: 50%;
+    text-align: center;
+    margin-top: 3px;
+}
+
+button {
+    border: none;
+    margin: 5px;
+    color: red;
+    padding: 5px;
+    background-color: #b7bcc0;
+    box-shadow: -2px -2px 6px rgb(255,255,255),
+                2px 2px 6px rgb(104, 103, 103);
+}
