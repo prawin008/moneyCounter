@@ -19,7 +19,7 @@ body {
                     3px 3px 10px rgb(160, 160, 160);
     }
       
-#total #totalNotes {
+#total, #totalNotes {
     display: block;
     margin: 5px 50px;
     }
