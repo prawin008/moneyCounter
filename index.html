@@ -6,7 +6,7 @@
     <meta name="description" content="currency counting app">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Praveen Sirimalla">
-    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" href="/styles/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 </head>
 
@@ -15,73 +15,73 @@
         <h1>Money Counter</h1>
     </header>
     <main>
-        <div class="card">
+        <div id="mainDiv" class="card">
             <div class="evenlySpaced">
                 <label class="labelOne" for="twoTd">2000</label>
                 <label class="labelTwo">X</label>
-                <input type="number" name="twoTd">
-                <label class="labelThree">0 &#8377;</label>
+                <input type="number"  id="twoTd" name="twoTd">
+                <label id="reTwoTd" class="labelThree">0 &#8377;</label>
             </div>
             <div class="evenlySpaced">
                 <label class="labelOne" for="fiveHd">500</label>
                 <label class="labelTwo">X</label>
-                <input type="number" name="fiveHd">
-                <label class="labelThree">0 &#8377;</label class="label">
+                <input id="fiveHd" type="number" name="fiveHd">
+                <label id="reFiveHd" class="labelThree">0 &#8377;</label class="label">
             </div>
             <div class="evenlySpaced">
                 <label class="labelOne" for="twoHd">200</label>
                 <label class="labelTwo">X</label>
-                <input type="number" name="twoHd">
-                <label class="labelThree">0 &#8377;</label>
+                <input id="twoHd" type="number" name="twoHd">
+                <label id="reTwoHd" class="labelThree">0 &#8377;</label>
             </div>
             <div class="evenlySpaced">
                 <label class="labelOne" for="oneHd">100</label>
                 <label class="labelTwo">X</label>
-                <input type="number" name="oneHd">
-                <label class="labelThree">0 &#8377;</label>
+                <input id="oneHd" type="number" name="oneHd">
+                <label id="reOneHd" class="labelThree">0 &#8377;</label>
             </div>
             <div class="evenlySpaced">
                 <label class="labelOne" for="fifty">50</label>
                 <label class="labelTwo">X</label>
-                <input type="number" name="fifty">
-                <label class="labelThree">0 &#8377;</label>
+                <input id="fifty" type="number" name="fifty">
+                <label id="reFifty" class="labelThree">0 &#8377;</label>
             </div>
             <div class="evenlySpaced">
                 <label class="labelOne" for="twenty">20</label>
                 <label class="labelTwo">X</label>
-                <input type="number" name="twenty">
-                <label class="labelThree">0 &#8377;</label>
+                <input id="twenty" type="number" name="twenty">
+                <label id="reTwenty" class="labelThree">0 &#8377;</label>
             </div>
             <div class="evenlySpaced">
                 <label class="labelOne" for="ten">10</label>
                 <label class="labelTwo">X</label>
-                <input type="number" name="ten">
-                <label class="labelThree ">0 &#8377;</label>
+                <input id="ten" type="number" name="ten">
+                <label id="reTen" class="labelThree ">0 &#8377;</label>
             </div>
             <div class="evenlySpaced">
                 <label class="labelOne" for="five">5</label>
                 <label class="labelTwo">X</label>
-                <input type="number" name="five">
-                <label class="labelThree">0 &#8377;</label>
+                <input id="five" type="number" name="five">
+                <label id="reFive" class="labelThree">0 &#8377;</label>
             </div>
             <div class="evenlySpaced">
                 <label class="labelOne" for="two">2</label>
                 <label class="labelTwo  ">X</label>
-                <input type="number" name="two">
-                <label class="labelThree">0 &#8377;</label>
+                <input id="two" type="number" name="two">
+                <label id="reTwo" class="labelThree">0 &#8377;</label>
             </div>
             <div class="evenlySpaced">
                 <label class="labelOne" for="one">1</label>
                 <label class="labelTwo">X</label>
-                <input type="number" name="one">
-                <label class="labelThree">0 &#8377;</label>
+                <input id="one" type="number" name="one">
+                <label id="reOne" class="labelThree">0 &#8377;</label>
             </div>
 
             <div>
-                <label for="">Total : 0 &#8377;</label>
-                <label> Total notes : 0</label>
+                <label id="total" for="">Total Amount : 0 &#8377;</label>
+                <label id="totalNotes"> Total Notes : 0</label>
                 <div>
-                    <button>reset</button>
+                    <button id="reset">RESET</button>
                 </div>
             </div>
 
@@ -90,6 +90,7 @@
     <footer>
 
     </footer>
+    <script src="/scripts/script.js"></script>
 </body>
 
 </html>
